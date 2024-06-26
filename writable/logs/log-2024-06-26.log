@@ -1,0 +1,28 @@
+CRITICAL - 2024-06-26 16:31:09 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: encrypt]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\EncryptController.php(17): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EncryptController->encrypt()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EncryptController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\en desarrollo\\encriptar\\public\\index.php')
+CRITICAL - 2024-06-26 16:34:13 --> CodeIgniter\Encryption\Exceptions\EncryptionException: Encrypter needs a starter key.
+[Method: POST, Route: encrypt]
+in SYSTEMPATH\Encryption\Encryption.php on line 128.
+ 1 SYSTEMPATH\Encryption\Encryption.php(128): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+ 2 SYSTEMPATH\Config\Services.php(254): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+ 3 SYSTEMPATH\Config\BaseService.php(320): CodeIgniter\Config\Services::encrypter()
+ 4 APPPATH\Controllers\EncryptController.php(18): CodeIgniter\Config\BaseService::__callStatic('encrypter', [])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\EncryptController->encrypt()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EncryptController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\en desarrollo\\encriptar\\public\\index.php')
